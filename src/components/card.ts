@@ -29,7 +29,7 @@ import {
       position: absolute;
       background-color: white;
       box-shadow: 0 0 0 rgba(0, 0, 0, 0) !important;
-      transform: perspective(400px) translate3d(0, 30px, -30px);
+      transform: perspective(400px) translate3d(0, 20px, 10px);
       visibility: hidden;
     }
 
@@ -37,19 +37,19 @@ import {
       box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3) !important;
       z-index:3;
       visibility: visible;
-      transform: perspective(400px) translate3d(0, 0px, 0px);
+      transform: perspective(400px) translate3d(0, 30px, 30px);
     }
     :host(.card-heap):nth-child(2) {
       box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3) !important;
       z-index:2;
       visibility: visible;
-      transform: perspective(400px) translate3d(0, 30px, -30px);
+      transform: perspective(400px) translate3d(0, 20px, 10px);
     }
     :host(.card-heap):nth-child(3) {
       box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3) !important;
       z-index:1;
       visibility: visible;
-      transform: perspective(400px) translate3d(0, 60px, -60px);
+      transform: perspective(400px) translate3d(0, 10px, -10px);
     }
 
     :host .card-overlay {
